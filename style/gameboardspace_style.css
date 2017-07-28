@@ -1,0 +1,33 @@
+/* there were so many of these background styles I decided to put them in another script */
+
+.bggrey {
+  background-color: #c0c0c0;
+}
+
+.tree {
+  background-color: #008000;
+}
+
+.forest {
+  background-color: #006400;
+}
+
+.door, .bggrey.equals {
+  background-color: #996633;
+}
+
+.water {
+  background-color: #3366ff;
+}
+
+.deepwater {
+  background-color: #0000ff;
+}
+/*
+.bggrey.info {
+  color: #996633;
+}
+*/
+.bggrey.building, .bggrey.dash, .bggrey.star {
+  background-color: #a0a0a0;
+}

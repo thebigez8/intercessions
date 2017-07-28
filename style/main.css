@@ -1,0 +1,273 @@
+/* main css stuff goes here */
+
+* {
+  box-sizing: border-box; /* this counts the padding and border in the element width */
+}
+
+body {
+  overflow: hidden;
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+/**********/
+
+#startmenu {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+#startmenubuttons {
+  position: relative;
+  top: 25%;
+  width: 200px;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+}
+
+input.startmenubutton {
+  background-color: #b0b0b0;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-align: center;
+}
+input.startmenubutton:hover {
+  background-color: #c0c0c0;
+}
+
+#choosesaint {
+  background-color: #b0b0b0;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 4px 0;
+}
+
+#gamearea {
+  background-color: orange;
+  height: 229px;
+  width: 550px;
+  padding: 0;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 520px) {
+#gamearea {
+  width: 375px;
+}}
+
+#gameboard {
+  height: 225px;
+  width: 300px;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+}
+
+.gameboardrow {
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  clear: both;
+}
+
+.gameboardspace {
+  min-height: 15px;
+  min-width: 15px;
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/**********/
+  
+#playerarea {
+  width: 550px;
+  padding: 0;
+  border: none;
+  margin: 0 auto;
+}
+@media screen and (max-width: 520px) {
+#playerarea {
+  width: 375px;
+}}
+
+#playerinfo {
+  background-color: #909090;
+  width: 100%;
+  padding: 4px;
+  border: none;
+  margin: 0;
+}
+@media screen and (max-width: 520px) {
+#playerinfo {
+  padding: 2px;
+}}
+
+#otherinfo {
+  background-color: #c0c0c0;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+}
+
+#saintbuttons {
+  width: 150px;
+  padding: 0;
+  border: none;
+  margin: 0 20px 0 0;
+  float: left;
+}
+@media screen and (max-width: 520px) {
+#saintbuttons {
+  width: 75px;
+}}
+
+input.saintbutton {
+  background-color: #b0b0b0;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  white-space: normal;
+  text-align: center;
+}
+
+input.saintbutton.clicked {
+  background-color: #c0c0c0;
+}
+
+input.saintbutton:hover {
+  background-color: #c0c0c0;
+}
+
+#saintsinfo {
+  width: 200px;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+}
+@media screen and (max-width: 520px) {
+#saintsinfo {
+  width: 100px;
+}}
+
+#health {
+  background-color: #ff0000;
+  height: 8px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+@media screen and (max-width: 520px) {
+#health {
+  height: 4px;
+}}
+
+#healthbar {
+  background-color: #00ff00;
+  height: 100%;
+  width: 50%;
+}
+
+#attackbuttons {
+  width: 100%;
+  padding: 0;
+  border: 1px solid #909090;
+  margin: 0;
+}
+
+input.attackbutton {
+  background-color: #b0b0b0;
+  height: 40px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+  text-align: left;
+}
+
+input.attackbutton.clicked {
+  background-color: #c0c0c0;
+}
+
+input.attackbutton:hover {
+  background-color: #c0c0c0;
+}
+input.attackbutton:disabled {
+  background-color: #909090;
+}
+
+#navbuttons {
+  width: 180px;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+}
+
+.navbuttonrow {
+  width: 100%;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+.navbuttonblank {
+  min-height: 60px;
+  min-width: 60px;
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  border: none;
+  margin: 0;
+  float: left;
+}
+
+.navbutton {
+  background-color: #e0e0e0;
+  min-height: 60px;
+  min-width: 60px;
+  height: 60px;
+  width: 60px;
+  padding: 0;
+  border: 1px solid #909090;
+  margin: 0;
+  float: left;
+  text-align: center;
+}

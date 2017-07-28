@@ -1,0 +1,50 @@
+row,col,char,text
+3,164,"@","map_2"
+34,5,"D","map_1_church1"
+8,10,"D","map_1_church2"
+7,49,"D","map_1_church3"
+26,109,"D","map_1_church4"
+35,2,"i","*------------------*\|The church you got|\|   confirmed in:  |\|    St. Pius X    |\*------------------*"
+14,21,"i","*------------------*\|The small town of |\|St. Charles, named|\| after its church |\*------------------*"
+7,47,"i","*------------------*\|A small chapel in |\|the woods, perfect|\|for quiet prayer. |\*------------------*"
+27,108,"i","*------------------*\| The Cathedral of |\|     St. Paul     |\|  Opened in 1915  |\*------------------*"
+start.pos,"34 4"
+open.char," "
+bg,"bggrey"
+special.char,"@"
+*------------------------------------------------------------------------------------------------------------------------------------------------------------------*
+|wwwww                               TTTTTTTTTTTTTTTTFFFFFFFFwwwTTTTTTTTTTTTTT                                                                                     |
+|wwww                                 TTTTTTTTTTTTTTTTTTTFFFwwwTTTTTTTTTT                                                                                          @
+|ww                                                  TTTTTFFwwwTTTTTT                                                                                              |
+|                         #          TTTTTTT    +      TTTTFwwwTTT                                                                                                 |
+|        +                #         TTTTTTT    /^\      TTTFFwwwTTT                                                                                                |
+|  /^\  /^\  /^\          #        TTTTFTTTT  i|D|    TTTTFFFwwwTTT                                                                                                |
+|  |_|  |D|  |_|          #        TTTTFFTTTT       TTTTTFFFwwwTTTT                                                                                                |
+|                         #         TTTFFFTTTTTTTTTTTTTTFFFFwwwTTT                                                                                                 |
+|  /^\  /^\  /^\          #         TTTFFFFFFTTTTTTTTFFFFFFTTwww                                                                                                   |
+|  |_|  |_|  |_|..........#         TTTTFFFFFFFFFFFFFFFFFTTTTTwww                                                                                                  |
+|                         #          TTTTFFFFFFFFFFFFFFTTTT   www                                                                                                  |
+|  /^\  /^\  /^\          #           TTTTFFFFFFFFFTTTTTTT   www                                                                                                   |
+|..|_|..|_|..|_|....i     #           TTTTFFFFFFFTTTTT      wwWww                                                                                                  |
+|                         #          TTTTFFFFFFFTTTT        wwWww                                                                                                  |
+|                         #         TTTTTTFFFFFTTTTTT      wwWww                                                                                                   |
+|                         #         TTTTTTTFFFTTTTTTTT     wwWww                                                                                                   |
+|                TTTTTTTTT           TTTTTTTTTTTTTTTT     wwWww                                                                                                    |
+|               TTTTTTTTTTT            TTTTTTTTTTTT       wwWww                                                                                                    |
+|              TTTTTTTTTTTT              TTTTTTTT        wwWww                                                                                                     |
+|                TTTTTTTTTTT                             wwWWww                                             +                                                      |
+|w              TTTTTFTTTTT                              wwWWww                                             |                                                      |
+|www           TTTTTTFFTTTTT                              wwWww                                   ........_/^\_........                                            |
+|wwww          TTTTTFFFTTTTT                              wWww                                    ...../\/  0  \/\.....                                            |
+|wwww          TTTTFFFTTTTT                              wwWww                                    .....||0000000||.....                                            |
+|wwww          TTTTFFFTTTT                              wwWww                                     .....||__|D|__||.....                                            |
+|www          TTTTTFFFTTTT                             =======                                    .........i ..........                                            |
+|w           TTTTTFFFTTTT                                                                                                                                          |
+|           TTTTTFFFFFTTTT                             =======                                                                                                     |
+|           TTTTFFFFFFTTTT                              wwWww                                                                                                      |
+|            TTTTFFFFFTTTT                             wwWWWww                                                                                                     |
+|   +         TTTTFFFTTTT                             wwWWWWww                                                                                                     |
+|  /^\         TTTTFTTT                               wwWWWWww                                                                                                     |
+|..|D|....     TTTTTTT                                 wwWWWWww                                                                                                    |
+|i             TTTTT                                  wwwWWWWwww                                                                                                   |
+*------------------------------------------------------------------------------------------------------------------------------------------------------------------*
